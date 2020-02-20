@@ -1,0 +1,94 @@
+
+
+/* cauersel css */
+.w-100 {
+    height: 500px;
+}
+
+/* events button fix */
+
+.btn-lg {
+    width: 200px;
+}
+
+h5 {
+    font-size: 1.75rem;
+}
+
+/* style upcoming events-sermon */
+.ml-3,.mx-3 {
+margin-left: 8rem!important;
+}
+blockquote {
+    margin: 0px 30px 1rem;
+}
+
+/* adding css for calander style */
+.row-striped:nth-of-type(odd) {
+background-color: #f9f9f9;
+
+    border-left: 10px #fa3232 solid;
+}
+
+.row-striped:nth-of-type(even) {
+    background-color: #ffffff;
+    border-left: 10px #efefef solid;
+}
+
+p {
+    margin-top:-9px;
+}
+
+.row-striped {
+    padding: 2px 0;
+box-shadow: 0 10px 10px;
+}
+/* fix sizing all elements for calander*/
+h3,p {
+    font-size: 1.2rem;
+}
+h2 {
+    font-size: 1.4rem;
+}
+.badge {
+    font-size: 50%;
+}
+.text-right {
+    text-align: center!important;
+}
+.bg-info {
+background-color : #e4e9e9!important;
+
+}
+/* live css */
+.bg-warning {
+background-color : #fff1c8!important;
+}
+/* blockquote css */
+.bg-primary {
+background-color : #e6e6e6 !important;
+height: 470px;
+
+}
+.d-flex >div .blockquote {
+    height: 200px;
+}
+/* hr styles */
+hr {
+    width: 150px;
+    border-color:black;
+    border: 1px solid;
+}
+
+/* bible verse */
+.blockquote2 {
+    border: 2px solid;
+    padding: 0 10px;
+    margin-top: 20px;
+    box-shadow: 0 10px 10px;
+}
+/* styling sr pastor bg */
+.bg-secondary{
+background-color : #e7d1b7!important
+
+}

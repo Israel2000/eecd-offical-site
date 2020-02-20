@@ -1,0 +1,15 @@
+
+/* btn nav css */
+.btn {
+    font-size: 19px;
+    line-height: 0.5;
+    border: 2px solid rgb(218, 36, 36);
+}
+
+.dropdown-item {
+    font-size: 18px;
+}
+.dropdown-item:hover {
+    background-color: red;
+    color:white;
+}

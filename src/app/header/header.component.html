@@ -1,0 +1,67 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+        <img class="ml-3 img-responsive" src="assets/eecd-logo-100.jpg" width="120">
+        <!--logo-->
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse mr-5" id="navbarNav">
+        <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a [routerLink]="'/'" class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown" role="menu" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Ministries
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a routerLink="/ministries" class="dropdown-item" href="#">About Us</a>
+                    <!-- <a routerLink="/ministries" class="dropdown-item" href="#">What We Believe</a> -->
+                    <div class="dropdown-divider"></div>
+                    <a routerLink="/ministries" class="dropdown-item" href="#">Pastorial Offices</a>
+                    <a class="dropdown-item" href="#">Other Ministry</a>
+                    <!-- <a class="dropdown-item" href="#">Children Ministry</a>
+                    <a class="dropdown-item" href="#">Middle & High School Programs</a> -->
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#"><i class="fas fa-bible"><span class="pl-2"></span></i>Bible Study
+                        Groups</a>
+
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown" role="menu" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Media
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a routerLink="/media" class="dropdown-item" href="#"><i class="fa fa-video"><span class="pl-2"></span></i>Watch
+                        Live</a>
+                    <a class="dropdown-item" href="#"><i class="fas fa-users"><span class="pl-2"></span></i>Social
+                        Media</a>
+
+                    <a class="dropdown-item" href="#"><i class="fab fa-youtube"><span class="pl-2"></span></i>YouTube
+                        Channel</a>
+                    <div class="dropdown-divider"></div>
+                    <a routerLink="/media" class="dropdown-item" href="#"><i class="fas fa-chalkboard-teacher"><span
+                                class="pl-2"></span></i>Sermons</a>
+                    <a routerLink="/gallery" class="dropdown-item" href="#"><i class="fas fa-photo-video"><span class="pl-2"></span></i>Gallery</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a routerLink="/events" class="nav-link text-uppercase" href="#">Events</a>
+            </li>
+            <li class="nav-item text-capitalize">
+                <a routerLink="/contact" class="nav-link text-uppercase" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link btn btn-light text-uppercase mt-2" href="#">Give</a>
+                <!-- <button type="button" class="btn btn-outline-danger text-uppercase mt-4">Give</button> -->
+
+            </li>
+            
+        </ul>
+    </div>
+    </nav>

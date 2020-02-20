@@ -1,0 +1,26 @@
+.container {
+    margin-left: 30px;
+}
+/* img css - center */
+img.center {
+    display : block;
+    margin : 0 auto;
+}
+
+/* tab-pane */
+.tab-pane {
+    margin-top: 20px;
+    
+}
+/* to make like page looks */
+#pills-home,
+#pills-profile {
+    border-radius: 5px;
+    border : 2px solid #f4f4f4;
+    padding: 22px;
+    box-shadow: 0 10px 5px;
+}
+
+p::first-letter {
+    font-size : 150%;
+}
